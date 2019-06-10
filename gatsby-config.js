@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/mini-gatsbyv2-material-kit-react`,
+  pathPrefix: `/travel-template`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
