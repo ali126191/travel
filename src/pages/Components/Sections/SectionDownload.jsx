@@ -89,7 +89,7 @@ class SectionDownload extends React.Component {
               <h3>Thank you for supporting us!</h3>
             </GridContainer>
             <Button color="twitter">
-              <FaTwitter/> Tweet
+              <FaTwitter/> Tweets
             </Button>
             <Button color="facebook">
               <FaFacebookSquare/>{" "}

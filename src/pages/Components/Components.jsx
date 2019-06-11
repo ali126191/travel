@@ -8,6 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
 import Header from "components/Header/Header.jsx";
+import Head from '../../shared/head' // HEAD
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -28,6 +29,7 @@ import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
+
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -35,6 +37,7 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        <Head/>
         <Header
           brand="Material Kit React"
           rightLinks={<HeaderLinks />}
