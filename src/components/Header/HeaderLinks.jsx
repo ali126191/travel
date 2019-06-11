@@ -55,7 +55,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Con Dao Islands
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -70,8 +70,9 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             color="transparent"
             className={classes.navLink}
-          >
+          > 
             <FaTwitter/>
+            When to go
           </Button>
         </Tooltip>
       </ListItem>
@@ -89,6 +90,7 @@ function HeaderLinks({ ...props }) {
             className={classes.navLink}
           >
             <FaFacebook/>
+            Things To Do
           </Button>
         </Tooltip>
       </ListItem>
@@ -106,6 +108,7 @@ function HeaderLinks({ ...props }) {
             className={classes.navLink}
           >
             <FaInstagram/>
+            Where to eat
           </Button>
         </Tooltip>
       </ListItem>
