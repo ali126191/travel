@@ -26,91 +26,64 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="#"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem>
-      <ListItem className={classes.listItem}>
         <Button
           href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Con Dao Islands
+         About
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
           <Button
             href="#"
             target="_blank"
             color="transparent"
             className={classes.navLink}
           > 
-            <FaTwitter/>
-            When to go
+            Con Dao Islands
           </Button>
-        </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
           <Button
             color="transparent"
             href="#"
             target="_blank"
             className={classes.navLink}
           >
-            <FaFacebook/>
+            When To Go 
+          </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+          <Button
+            color="transparent"
+            href="#"
+            target="_blank"
+            className={classes.navLink}
+          >
             Things To Do
           </Button>
-        </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
           <Button
             color="transparent"
             href="#"
             target="_blank"
             className={classes.navLink}
           >
-            <FaInstagram/>
-            Where to eat
+            Where To Eat
           </Button>
-        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+          <Button
+            color="transparent"
+            href="#"
+            target="_blank"
+            className={classes.navLink}
+          >
+            Where To Stay
+          </Button>
       </ListItem>
     </List>
   );

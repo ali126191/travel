@@ -39,7 +39,7 @@ class Components extends React.Component {
       <div>
         <Head/>
         <Header
-          brand="Material Kit React"
+          brand="Con Dao Island Guide"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
